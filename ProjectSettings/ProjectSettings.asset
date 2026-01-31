@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: ad44e47d69f82824cb2e6b4235941d0d
+  productGUID: 6c66811599f418042bef0567700873c7
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Game projects
+  productName: GGJ 2026
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -596,14 +596,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Game projects
+  metroPackageName: GGJ 2026
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Game projects
+  metroApplicationDescription: GGJ 2026
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -674,10 +674,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 6bfeb14c-a940-452e-8a88-7174f0bb72d4
+  cloudProjectId: df7aba16-1fc8-4c8c-9d47-12758c9c3a72
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Game projects
+  projectName: GGJ 2026
   organizationId: mollyd_marsish
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
