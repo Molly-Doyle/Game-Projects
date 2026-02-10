@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 6c66811599f418042bef0567700873c7
+  productGUID: 2a69f06a56a38af47ac9533b9749676d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: GGJ 2026
+  productName: Eroded Away - Prototype
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -596,14 +596,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: GGJ 2026
+  metroPackageName: Eroded Away - Prototype
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: GGJ 2026
+  metroApplicationDescription: Eroded Away - Prototype
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -674,10 +674,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: df7aba16-1fc8-4c8c-9d47-12758c9c3a72
+  cloudProjectId: 97ec0388-2915-4587-8e81-68b82e80b790
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: GGJ 2026
+  projectName: Eroded Away - Prototype
   organizationId: mollyd_marsish
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

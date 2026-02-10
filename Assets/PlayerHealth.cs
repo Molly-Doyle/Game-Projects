@@ -1,6 +1,6 @@
 using UnityEngine;
-[RequireComponent(typeof(SpriteRenderer))]
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class PlayerHealth : MonoBehaviour, IDamageable
 {
     [SerializeField] float maxHealth = 100f;
@@ -9,7 +9,6 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     float currentHealth;
     float invulnerabilityTimer;
-
 
     SpriteRenderer sprite;
     float blinkTimer;
@@ -23,20 +22,20 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     void Update()
     {
-        if(invulnerabilityTimer > 0f)
-        {
-            invulnerabilityTimer-=Time.deltaTime;
-            HandleBlink();
-        }
+        if (invulnerabilityTimer > 0f)
+            invulnerabilityTimer -= Time.deltaTime;
+
+        HandleBlink();
     }
 
     public bool ApplyDamage(float amount)
     {
-        if(currentHealth <=0f ||invulnerabilityTimer >0f)
-        return false;
+        if (currentHealth <= 0f || invulnerabilityTimer > 0f)
+            return false;
 
         currentHealth -= amount;
-        if(currentHealth <= 0f)
+
+        if (currentHealth <= 0f)
         {
             Die();
             return true;
@@ -49,25 +48,24 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     void StartBlink(float duration)
     {
-        gameObject.SetActive(false);
-
+        blinking = true;
+        blinkTimer = duration;
     }
 
     void HandleBlink()
     {
-        if(!blinking)
-        {
-        return;
-        }
+        if (!blinking) return;
+
         blinkTimer -= Time.deltaTime;
-        if(blinkTimer <= 0f)
+        if (blinkTimer <= 0f)
         {
             blinking = false;
             sprite.enabled = true;
             return;
         }
+
         sprite.enabled =
-        Mathf.FloorToInt(blinkTimer/blinkInterval) % 2 == 0;
+            Mathf.FloorToInt(blinkTimer / blinkInterval) % 2 == 0;
     }
 
     void Die()
