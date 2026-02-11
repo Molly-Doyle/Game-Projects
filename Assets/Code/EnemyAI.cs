@@ -26,7 +26,7 @@ public class EnemyAI : MonoBehaviour, IDamageable
     {
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
-        PlayerHealth playerHealth = Object.FindFirstObjectByType<PlayerHealth>();
+        PlayerHealth playerHealth = FindObjectOfType<PlayerHealth>();
 
         if(playerHealth != null)
         {
